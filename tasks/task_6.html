@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Задача 6</title>
+</head>
+
+<body>
+	<h1>Задача 6</h1>
+	<p>З клавіатури вводиться номер дня тижня. Вивести на екран назву дня.</p>
+	<script>
+		// 1. Вводимо необхіднігодинаr дані
+		let numberOfDayWeek = (prompt('Введіть номер дня тижня', ''))
+		// 2. Знаходимо результат
+		// 3. Виводимо результат
+		if (numberOfDayWeek == 1)
+			document.write('понеділок')
+		else if (numberOfDayWeek == 2)
+			document.write('вівторок')
+		else if (numberOfDayWeek == 3)
+			document.write('середа')
+		else if (numberOfDayWeek == 4)
+			document.write('четверг')
+		else if (numberOfDayWeek == 5)
+			document.write("п'ятниця")
+		else if (numberOfDayWeek == 6)
+			document.write('субота')
+		else if (numberOfDayWeek == 7)
+			document.write('неділя')
+		else if (numberOfDayWeek < 1 || numberOfDayWeek > 7)
+			document.write('Ви ввели не корекне число, введіть від 1 до 7')
+	</script>
+</body>
+
+</html>
+
+
+<!-- <th> Товар 1 </th>
+<th> Товар 2 </th>
+<th> Товар 3 </th> -->

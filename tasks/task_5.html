@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Задача 5</title>
+</head>
+
+<body>
+	<h1>Задача 5</h1>
+	<p>З клавіатури вводиться назва категорії водія (А-мотоцикл, В-легковий автомобіль, С-вантажний автомобіль).
+		Вивести на екран назву транспортного засобу, яким він може керувати.</p>
+	<script>
+		// 1. Вводимо необхідні дані
+		let driverСategory = prompt('Введіть категорію водія, наприклат А,В,С', '')
+		// 2. Знаходимо результат
+		if (driverСategory == 'A' || driverСategory == 'a')
+			document.write(`Водій мотоцикла`)
+		else if (driverСategory == 'B' || driverСategory == 'b')
+			document.write(`Водій автомобіля`)
+		else if (driverСategory == 'C' || driverСategory == 'c')
+			document.write(`Водій вантажівки`)
+
+	</script>
+</body>
+
+</html>
